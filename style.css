@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-image: url(../image/sky_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font font-family: 'Roboto', sans-serif;
+    width: 100%; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    height: 100vh;
+}
+.header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+    color: white;
+}
+.navigation{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navigation a:not(:last-child){
+    margin-right: 20px;
+}
+.main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
